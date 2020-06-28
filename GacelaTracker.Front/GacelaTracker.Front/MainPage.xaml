@@ -5,10 +5,17 @@
              x:Class="GacelaTracker.Front.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Add Competition" Clicked="AddCompetition_Clicked"></Button>
+        <Button Text="Add Player" Clicked="AddPlayer_Clicked"></Button>
+        <ListView>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Natación 2020</x:String>
+                    <x:String>Natación 2020 - Semana 1</x:String>
+                    <x:String>Natación 2020 - Semana 2</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
     </StackLayout>
 
 </ContentPage>

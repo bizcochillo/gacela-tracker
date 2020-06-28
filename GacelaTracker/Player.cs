@@ -13,4 +13,13 @@ namespace GacelaTracker
             Guid = Guid.NewGuid();
         }
     }
+
+
+    /// <summary>
+    /// Tracks 
+    /// </summary>
+    public class PlayerTracker
+    {
+       
+    }
 }
